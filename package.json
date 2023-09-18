@@ -18,7 +18,7 @@
     "url": "https://github.com/mendlero/react-plus-vue/issues"
   },
   "homepage": "https://github.com/mendlero/react-plus-vue#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
