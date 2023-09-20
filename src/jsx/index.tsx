@@ -2,6 +2,7 @@ const vIfFallback = null;
 
 interface __AdditionalReactVueComponentProps {
   vIf?: boolean;
+  vIfn?: boolean;
 }
 
 type __ReactVueComponent<T> = (
@@ -13,9 +14,11 @@ function __ReactVueComponentFactory<T>(
 ): __ReactVueComponent<T> {
   return function Component({
     vIf,
+    vIfn,
     ...restProps
   }: T & __AdditionalReactVueComponentProps) {
     if (vIf === false) return vIfFallback;
+    if (vIfn === true) return vIfFallback;
 
     return originalComponent(restProps as T);
   };
