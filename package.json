@@ -1,0 +1,33 @@
+{
+  "name": "react-plus-vue",
+  "version": "0.0.0",
+  "description": "The library for using vue features in react",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendlero/react-plus-vue.git"
+  },
+  "keywords": [
+    "react",
+    "vue"
+  ],
+  "author": "Omer M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mendlero/react-plus-vue/issues"
+  },
+  "homepage": "https://github.com/mendlero/react-plus-vue#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "typescript": "^5.2.2"
+  }
+}
