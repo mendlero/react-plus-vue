@@ -1,4 +1,4 @@
-const vIfFallback = null;
+const __vIfFallback = null;
 
 interface __AdditionalReactVueComponentProps {
   vIf?: boolean;
@@ -17,8 +17,7 @@ function __ReactVueComponentFactory<T>(
     vIfn,
     ...restProps
   }: T & __AdditionalReactVueComponentProps) {
-    if (vIf === false) return vIfFallback;
-    if (vIfn === true) return vIfFallback;
+    if (vIf === false || vIfn === true) return __vIfFallback;
 
     return originalComponent(restProps as T);
   };
