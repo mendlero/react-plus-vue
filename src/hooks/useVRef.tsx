@@ -4,7 +4,7 @@ import { useState, SetStateAction } from 'react';
  *
  * @param initialState the initial state of the ref
  * @description a wrapper around useState to make it like ref() in vue
- */ 
+ */
 function useVRef<T>(initialState: T) {
   const [refValue, setRefValue] = useState<T>(initialState);
 
