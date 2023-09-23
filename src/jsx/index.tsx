@@ -26,11 +26,9 @@ function __ReactVueComponentFactory<T>(
 function __ReactVueComponentFromName<T extends keyof JSX.IntrinsicElements>(
   element: T
 ) {
-  return __ReactVueComponentFactory<React.HTMLProps<JSX.IntrinsicElements[T]>>(
-    props => {
-      return React.createElement(element, props);
-    }
-  );
+  return __ReactVueComponentFactory<JSX.IntrinsicElements[T]>(props => {
+    return React.createElement(element, props);
+  });
 }
 
 // HTML
