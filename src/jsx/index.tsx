@@ -1,4 +1,4 @@
-import { createElement } from 'react';
+import { ReactNode, createElement } from 'react';
 
 const vIfFallback = null;
 
@@ -9,10 +9,10 @@ interface AdditionalReactVueComponentProps {
 
 type ReactVueComponent<T> = (
   props: T & AdditionalReactVueComponentProps
-) => React.ReactNode;
+) => ReactNode;
 
 function ReactVueComponentFactory<T>(
-  originalComponent: (props: T) => React.ReactNode
+  originalComponent: (props: T) => ReactNode
 ): ReactVueComponent<T> {
   return function Component({
     vIf,
