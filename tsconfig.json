@@ -11,11 +11,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "rootDir": "src",
-    "outDir": "dist",
-    "declaration": true,
-    "sourceMap": true
+    "rootDir": "src"
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx"],
-  "exclude": ["node_modules", "dist", "./src/*.d.ts", "./src/tests"]
+  "exclude": ["node_modules", "dist", "./src/*.d.ts"]
 }
