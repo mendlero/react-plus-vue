@@ -1,2 +1,2 @@
 export * from './jsx';
-export * from './hooks/useVRef';
+export * from './hooks/useVShallowRef';

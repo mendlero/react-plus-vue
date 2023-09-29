@@ -116,7 +116,7 @@ This package is licensed under the MIT License. See the [LICENSE](https://github
 ## Implemented Features of vue
 
 - v-if (as vIf)
-- ref() (as useVRef)
+- shllowRef() (as useVShallowRef)
 
 ## Extra features
 
@@ -125,3 +125,4 @@ This package is licensed under the MIT License. See the [LICENSE](https://github
 ## Future plans
 
 - store (vuex)
+- ref() (as useVRef)

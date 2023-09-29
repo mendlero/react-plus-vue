@@ -1,5 +1,5 @@
 import { act, renderHook } from '@testing-library/react';
-import useVRef from '../../../hooks/useVRef';
+import useVRef from '../../../hooks/useVShallowRef';
 import { describe, expect, it } from 'vitest';
 
 describe('useVRef test', () => {
