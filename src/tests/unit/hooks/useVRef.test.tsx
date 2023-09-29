@@ -7,6 +7,7 @@ describe('useVRef test', () => {
     const { result } = renderHook(useVRef, {
       initialProps: '',
     });
+
     expect(result.current.value).toBe('');
   });
 
@@ -32,5 +33,17 @@ describe('useVRef test', () => {
     });
 
     expect(result.current.value).toBe(6);
+  });
+
+  it('is not deeply reactive', () => {
+    const { result } = renderHook(useVRef, {
+      initialProps: { num: 3 },
+    });
+
+    act(() => {
+      result.current.value.num = 6;
+    });
+
+    expect(result.current.value.num).not.toBe('6');
   });
 });
