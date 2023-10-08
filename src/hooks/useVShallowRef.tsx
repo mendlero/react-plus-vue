@@ -4,9 +4,8 @@ function useVShallowRef<T>(initialState: T) {
   const [refValue, setRefValue] = useState<T>(initialState);
 
   return {
-    __intenalValue: refValue,
     get value(): T {
-      return this.__intenalValue;
+      return refValue;
     },
 
     set value(v: SetStateAction<T>) {
