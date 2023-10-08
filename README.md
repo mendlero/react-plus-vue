@@ -4,7 +4,7 @@
 
 <p align="center">
   <a aria-label="Version" href="https://www.npmjs.com/package/react-plus-vue">
-    <img alt="version: 1.0.3" src="https://img.shields.io/badge/version-1.0.3-cyan">
+    <img alt="version: 1.0.4" src="https://img.shields.io/badge/version-1.0.4-cyan">
   </a>
   <img alt="full typescript support" src="https://img.shields.io/badge/full_typescript_suppot-blue">
   <a aria-label="License" href="https://github.com/mendlero/react-plus-vue/blob/main/LICENSE">
@@ -122,7 +122,3 @@ This package is licensed under the MIT License. See the [LICENSE](https://github
 ## Extra features
 
 - vIfn: like vIf but it renders only when then condition is false
-
-## Future plans
-
-- store (vuex)
