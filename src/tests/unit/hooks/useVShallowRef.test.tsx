@@ -1,10 +1,10 @@
 import { act, renderHook } from '@testing-library/react';
-import useVRef from '../../../hooks/useVShallowRef';
+import useVShallowRef from '../../../hooks/useVShallowRef';
 import { describe, expect, it } from 'vitest';
 
 describe('useVShallowRef test', () => {
   it('should get the initial state after initializing', () => {
-    const { result } = renderHook(useVRef, {
+    const { result } = renderHook(useVShallowRef, {
       initialProps: '',
     });
 
@@ -12,7 +12,7 @@ describe('useVShallowRef test', () => {
   });
 
   it('is able to assign value correctly', () => {
-    const { result } = renderHook(useVRef, {
+    const { result } = renderHook(useVShallowRef, {
       initialProps: 1,
     });
 
@@ -24,7 +24,7 @@ describe('useVShallowRef test', () => {
   });
 
   it('updates the value correctly when assigning to a function', () => {
-    const { result } = renderHook(useVRef, {
+    const { result } = renderHook(useVShallowRef, {
       initialProps: 3,
     });
 
@@ -36,7 +36,7 @@ describe('useVShallowRef test', () => {
   });
 
   it('is not deeply reactive', () => {
-    const { result } = renderHook(useVRef, {
+    const { result } = renderHook(useVShallowRef, {
       initialProps: { num: 3 },
     });
 
