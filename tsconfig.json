@@ -13,6 +13,6 @@
     "jsx": "preserve",
     "rootDir": "src"
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "include": ["./src/**/**/*.ts", "./src/**/**/*.tsx"],
   "exclude": ["node_modules", "dist", "./src/*.d.ts"]
 }
