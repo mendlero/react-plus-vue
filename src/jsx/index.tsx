@@ -8,11 +8,11 @@ interface AdditionalReactVueComponentProps {
 }
 
 type ReactVueComponent<T> = (
-  props: T & AdditionalReactVueComponentProps
+  props: T & AdditionalReactVueComponentProps,
 ) => ReactNode;
 
 function ReactVueComponentFactory<T>(
-  originalComponent: (props: T) => ReactNode
+  originalComponent: (props: T) => ReactNode,
 ): ReactVueComponent<T> {
   return function Component({
     vIf,
@@ -26,7 +26,7 @@ function ReactVueComponentFactory<T>(
 }
 
 function ReactVueComponentFromName<T extends keyof JSX.IntrinsicElements>(
-  element: T
+  element: T,
 ) {
   return ReactVueComponentFactory<JSX.IntrinsicElements[T]>(props => {
     return createElement(element, props);
@@ -168,7 +168,7 @@ export const Vellipse = ReactVueComponentFromName('ellipse');
 export const VfeBlend = ReactVueComponentFromName('feBlend');
 export const VfeColorMatrix = ReactVueComponentFromName('feColorMatrix');
 export const VfeComponentTransfer = ReactVueComponentFromName(
-  'feComponentTransfer'
+  'feComponentTransfer',
 );
 export const VfeComposite = ReactVueComponentFromName('feComposite');
 export const VfeConvolveMatrix = ReactVueComponentFromName('feConvolveMatrix');
