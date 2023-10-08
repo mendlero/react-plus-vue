@@ -1,17 +1,5 @@
-import { useState, SetStateAction } from 'react';
+import useVRef from './useVRef';
 
-function useVShallowRef<T>(initialState: T) {
-  const [refValue, setRefValue] = useState<T>(initialState);
-
-  return {
-    get value(): T {
-      return refValue;
-    },
-
-    set value(v: SetStateAction<T>) {
-      setRefValue(v);
-    },
-  };
-}
+const useVShallowRef = useVRef;
 
 export default useVShallowRef;

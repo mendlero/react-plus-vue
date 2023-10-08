@@ -52,7 +52,7 @@ There are a few special features like vIf and vIfn:
 
 ```jsx
 import { Vp } from 'react-plus-vue';
-import { useStaet } from 'react';
+import { useState } from 'react';
 
 export default function MyReactVueComponent() {
   const [show, setShow] = useState(true);
@@ -71,9 +71,9 @@ export default function MyReactVueComponent() {
 }
 ```
 
-### useVRef
+### useVRef and useVShallowRef
 
-The useVRef hooks is like the `ref` function in vue:
+The useVRef, useVShallowRef hooks are like the `ref` function in vue, to learn more, set [the difference](https://github.com/mendlero/react-plus-vue/tree/main/docs/useVRef.md):
 
 ```jsx
 import { Vp, useVRef } from 'react-plus-vue';
@@ -117,6 +117,7 @@ This package is licensed under the MIT License. See the [LICENSE](https://github
 
 - v-if (as vIf)
 - shllowRef() (as useVShallowRef)
+- ref() (as useVRef)
 
 ## Extra features
 
@@ -125,4 +126,3 @@ This package is licensed under the MIT License. See the [LICENSE](https://github
 ## Future plans
 
 - store (vuex)
-- ref() (as useVRef)
