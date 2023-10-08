@@ -4,7 +4,7 @@
 
 <p align="center">
   <a aria-label="Version" href="https://www.npmjs.com/package/react-plus-vue">
-    <img alt="version: 1.0.1" src="https://img.shields.io/badge/version-1.0.1-cyan">
+    <img alt="version: 1.0.3" src="https://img.shields.io/badge/version-1.0.3-cyan">
   </a>
   <img alt="full typescript support" src="https://img.shields.io/badge/full_typescript_suppot-blue">
   <a aria-label="License" href="https://github.com/mendlero/react-plus-vue/blob/main/LICENSE">
