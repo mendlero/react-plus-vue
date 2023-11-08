@@ -10,7 +10,7 @@ describe('jsx test', () => {
     expect(button).not.toBeNull();
   });
 
-  test('vIfn prop', () => {
+  test('vIf prop', () => {
     const { queryByRole, rerender } = render(<Vbutton vIf />);
     const button = queryByRole('button');
     expect(button).not.toBeNull();
