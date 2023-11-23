@@ -10,4 +10,4 @@ function MyComponent() {
 }
 ```
 
-And then you change the valur in the component, it will not update in `OtherComponent`
+And then you change the value in the OtherComponent, it will not update in `OtherComponent`
