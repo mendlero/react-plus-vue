@@ -27,7 +27,7 @@
     "url": "https://github.com/mendlero/rollup-vite-plugins/issues"
   },
   "homepage": "https://github.com/mendlero/rollup-vite-plugins#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0"
   }
 }
