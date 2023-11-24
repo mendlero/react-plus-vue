@@ -1,0 +1,32 @@
+{
+  "name": "react-plus-vue-jsx-import-source",
+  "version": "0.0.0",
+  "description": "A jsxImportSource to bring some of vue's most loved features into react!",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendlero/rollup-vite-plugins.git",
+    "directory": "packages/vite-plugin-react-plus-vue"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "vite-plugin",
+    "react",
+    "vue"
+  ],
+  "author": "Omer M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mendlero/rollup-vite-plugins/issues"
+  },
+  "homepage": "https://github.com/mendlero/rollup-vite-plugins#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
