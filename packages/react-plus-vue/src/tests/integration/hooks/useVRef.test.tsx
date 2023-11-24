@@ -34,9 +34,7 @@ describe('useShallowVRef integration test', () => {
       return <button>{value.value}</button>;
     };
 
-    const { getByRole } = render(
-      component({ value: result.current })
-    );
+    const { getByRole } = render(component({ value: result.current }));
 
     act(() => {
       result.current.value = 2;
