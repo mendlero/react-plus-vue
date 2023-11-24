@@ -1,6 +1,6 @@
 {
   "name": "react-plus-vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The library for using vue features in react",
   "main": "dist/index.js",
   "files": [
@@ -13,7 +13,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mendlero/react-plus-vue.git"
+    "url": "git+https://github.com/mendlero/react-plus-vue.git",
+    "directory": "packages/react-plus-vue"
   },
   "keywords": [
     "react",
