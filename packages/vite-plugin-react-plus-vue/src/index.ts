@@ -12,7 +12,7 @@ export default function reactPlusVue(
 ): ReturnType<typeof reactPlugin> {
   return reactPlugin({
     ...options,
-    jsxImportSource: 'vite-plugin-react-plus-vue/jsxImportSource',
+    jsxImportSource: 'react-plus-vue-jsx-import-source',
     jsxRuntime: 'automatic',
   });
 }

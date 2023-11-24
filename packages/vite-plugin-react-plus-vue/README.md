@@ -12,14 +12,6 @@ A vite plugin to include some of vue's most loved features into react!
 
 `yarn add vite-plugin-react-plus-vue -D`
 
-## Current Features
+## Features
 
-none, it only has the initial code required to get everything working
-
-## Future Plans
-
-- `v-if` (as `vIf`)
-- `vIfn` (the opposite of `vIf`, meaning that the element will not desplay if `vIfn=true`)
-- converting `.vue` files to react components
-- directives + intellisense
-- and more!
+See all of the impllemeanted features and future plans [here](../react-plus-vue-jsx-import-source/README.md#current-features)
