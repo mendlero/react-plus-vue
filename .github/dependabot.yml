@@ -1,0 +1,42 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "root"
+      include: "scope"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "npm"
+    directory: "/packages/core"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "core"
+      include: "scope"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "npm"
+    directory: "/packages/react-plus-vue"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "react-plus-vue"
+      include: "scope"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "npm"
+    directory: "/packages/react-plus-vue-jsx-import-source"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "react-plus-vue-jsx-import-source"
+      include: "scope"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "npm"
+    directory: "/packages/vite-plugin-react-plus-vue"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "vite-plugin-react-plus-vue"
+      include: "scope"
+    open-pull-requests-limit: 10
