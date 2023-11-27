@@ -73,7 +73,7 @@ export default function MyReactVueComponent() {
 
 ### useVRef and useVShallowRef
 
-The useVRef, useVShallowRef hooks are like the `ref` function in vue, to learn more, set [the difference](https://github.com/mendlero/react-plus-vue/tree/main/docs/useVRef.md):
+The useVRef, useVShallowRef hooks are like the `ref` function in vue, to learn more, set [the difference](/docs/useVRef.md):
 
 ```jsx
 import { Vp, useVRef } from 'react-plus-vue';
@@ -107,11 +107,11 @@ export default function MyReactVueComponent() {
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvements, please feel free to open an issue on the [GitHub repository](https://github.com/mendlero/react-plus-vue). Contributions are welcome!
+If you encounter any issues or have suggestions for improvements, please feel free to open an issue on the [GitHub repository](/). Contributions are welcome!
 
 ## License
 
-This package is licensed under the MIT License. See the [LICENSE](https://github.com/mendlero/react-plus-vue/blob/main/LICENSE) file for details.
+This package is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
 
 ## Implemented Features of vue
 
