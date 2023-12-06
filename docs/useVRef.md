@@ -1,6 +1,6 @@
 ## useVRef and useVShallowRef
 
-The `useVRef` and `useVShallowRef` hooks are like vue's `ref()` function exept they are not deeply reactive and if you pass the as prop like this:
+The `useVRef` and `useVShallowRef` hooks are like vue's `ref()` function exept they are not deeply reactive and if you pass them as prop like this:
 
 ```jsx
 function MyComponent() {
@@ -10,4 +10,4 @@ function MyComponent() {
 }
 ```
 
-And then you change the value in the OtherComponent, it will not update in `OtherComponent`
+And then you change the value in `MyComponent`, it will not update in `OtherComponent`, see [the tests](../packages/react-plus-vue/src/tests/integration/hooks/useVRef.test.tsx) for more details
