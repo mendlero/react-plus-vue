@@ -1,6 +1,7 @@
 {
-  "name": "react-plus-vue",
-  "version": "1.0.5",
+  "name": "@react-plus-vue/elements",
+  "version": "1.0.0",
+  "type": "module",
   "description": "The library for using vue features in react",
   "main": "dist/index.js",
   "files": [

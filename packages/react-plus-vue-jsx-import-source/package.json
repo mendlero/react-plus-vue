@@ -1,6 +1,7 @@
 {
   "name": "react-plus-vue-jsx-import-source",
   "version": "0.0.0",
+  "type": "module",
   "description": "A jsxImportSource to bring some of vue's most loved features into react!",
   "main": "dist/index.js",
   "files": [

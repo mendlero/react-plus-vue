@@ -1,6 +1,7 @@
 {
   "name": "@react-plus-vue/core",
   "version": "0.0.0",
+  "type": "module",
   "description": "The core package of react plus vue",
   "main": "dist/index.js",
   "files": [

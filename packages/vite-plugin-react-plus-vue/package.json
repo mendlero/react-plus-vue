@@ -1,6 +1,7 @@
 {
   "name": "vite-plugin-react-plus-vue",
   "version": "0.0.2",
+  "type": "module",
   "description": "A vite plugin to enable some vue features in react",
   "main": "dist/index.js",
   "files": [
